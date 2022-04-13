@@ -1,9 +1,12 @@
 {
-  "name": "ui",
+  "name": "next-router-event",
   "version": "0.0.0",
-  "main": "./index.tsx",
-  "types": "./index.tsx",
+  "main": "./index.ts",
+  "types": "./index.ts",
   "license": "MIT",
+  "peerDependencies": {
+    "next": "^9.0.0"
+  },
   "devDependencies": {
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
