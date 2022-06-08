@@ -18,7 +18,7 @@ export type RouterEventHook = {
 
 /**
  *
- * @param event router event type
+ * @param event router event type. Can be one of: "routeChangeStart", "routeChangeComplete", "beforeHistoryChange", "hashChangeStart", "hashChangeComplete".
  * @param handler handler to execute when the event happens. NOTE: make sure this function is referentially equal to avoid running the effect on every render, unless ofcourse it's on purpose.
  */
 const useRouterEvent: RouterEventHook = <
