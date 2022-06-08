@@ -1,14 +1,14 @@
 {
   "name": "next-router-event",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "sideEffects": false,
   "license": "MIT",
   "source": "./index.ts",
   "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
-  "types": "./dist/index.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     "require": "./dist/index.cjs",
     "default": "./dist/index.modern.js"
