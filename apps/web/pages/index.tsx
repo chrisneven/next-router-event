@@ -6,7 +6,7 @@ export default function Web() {
   return (
     <div>
       <h1>Web</h1>
-      <Link href={{ hash: "nibba" }}>nibba</Link>
+      <Link href={{ hash: "test" }}>test</Link>
     </div>
   );
 }
