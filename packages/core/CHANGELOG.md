@@ -1,5 +1,11 @@
 # next-router-event
 
+## 0.1.2
+
+### Patch Changes
+
+- 67658b2: Updated git workflow
+
 ## 0.1.1
 
 ### Patch Changes
