@@ -1,5 +1,11 @@
 # next-router-event
 
+## 0.2.0
+
+### Minor Changes
+
+- 9efed04: Added correct release script to package.json
+
 ## 0.1.2
 
 ### Patch Changes
