@@ -1,5 +1,11 @@
 # next-router-event
 
+## 0.2.1
+
+### Patch Changes
+
+- fcdbef8: Add file extension to useRouter import path
+
 ## 0.2.0
 
 ### Minor Changes
