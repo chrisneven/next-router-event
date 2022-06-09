@@ -87,14 +87,26 @@ If a route load is cancelled (for example, by clicking two links rapidly in succ
 ```tsx
 import useRouterEvent from "next-router-event";
 
-const handleRouteChangeError = (err, url) => {
+// wrong
+const handleRouteChange1 = (err: string) => {
+  if (err.cancelled) {
+    console.log(`Route to ${url} was cancelled!`);
+  }
+};
+
+// correct
+const handleRouteChange2 = (err: Error, url: string) => {
   if (err.cancelled) {
     console.log(`Route to ${url} was cancelled!`);
   }
 };
 
 const useOnRouterError = () => {
-  useRouterEvent("routeChangeError", handleRouteChangeError);
+  // typescript will complain
+  useRouterEvent("routeChangeError", handleRouteChange1);
+
+  // correct
+  useRouterEvent("routeChangeError", handleRouteChange2);
 };
 
 export default usePageView;
